@@ -11,10 +11,10 @@ pveam download local ubuntu-20.04-standard_20.04-1_amd64.tar.gz
 
 ## STEP 2 Setup Container
 Create a new container by clicking "Create CT" in Proxmox.
-	- Uncheck Unprivileged Container
-	- Select Template: pveam download local ubuntu-20.04-standard_20.04-1_amd64.tar
-	- Use a disk size of 15 GB
-	- Dont start container after finishing
+1. Uncheck Unprivileged Container
+2. Select Template: ubuntu-20.04-standard_20.04-1_amd64.tar
+3. Use a disk size of 15 GB
+4. Dont start container after finishing
 	
 ## STEP 3 edit container config on host
 In the host shell edit the configuration file of the container:
